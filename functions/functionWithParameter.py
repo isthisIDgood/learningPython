@@ -7,3 +7,5 @@ def helloUser(name):
     print(' Hello, ' + name.title())
 
 helloUser(userName)
+##Just to demonstrate this function works with any user name
+helloUser('Judy')
