@@ -9,6 +9,7 @@ print(square(int(val)))
 
 ##Format name function
 def formatName(firstName, lastName):
+    """Format entered names"""
     return (firstName.title() + " " + lastName.title())
 
 print ( formatName ('brent','nolan') )
