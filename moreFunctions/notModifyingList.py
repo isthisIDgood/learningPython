@@ -12,7 +12,7 @@ def checkInPassengers(notChecked,checked):
     while notChecked:
         currentPassenger = notChecked.pop()
         ##Simulate checking them in
-        print( "Checking in: " + currentPassenger.title())
+        print( "Checking in " + currentPassenger.title() + "...")
         checked.append(currentPassenger)
 
 def showCheckedPassengers(checked):
