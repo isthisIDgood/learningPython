@@ -8,7 +8,7 @@ pythonTerms = {
 if 'float' in pythonTerms:
     print ('Dictionary contains float type')
 else:
-    print ('pythonTerms dictionary does not contain the float ty[e')
+    print ('pythonTerms dictionary does not contain the float type')
 print ('Variable ' + pythonTerms['variable'])
 
 terms = {}
@@ -16,5 +16,4 @@ terms = {}
 terms['float'] = 'Represents a number with a decimal'
 terms['integer'] = 'A whole number'
 
-print ( '\nTerms dictionary:\n' + terms['float'])
-print ( terms['integer'])
+print ( '\nTerms dictionary:\n' + terms['float'] + '\n' + terms['integer'])
